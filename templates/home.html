@@ -1,6 +1,7 @@
 <!-- templates/home.html -->
 {% extends 'base.html' %}
 {% block content %}
+<p><a href="{% url 'randomizer' %}">Randomizer</a> </p>
     {% for post in object_list %}
         <div class="post-entry">
             <h2>Please log in</h2>
