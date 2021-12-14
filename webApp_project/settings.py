@@ -149,6 +149,3 @@ LOGOUT_REDIRECT_URL = 'home'
 
 SOCIAL_AUTH_GITHUB_KEY = '74a3f0a77f7fdc4e9408'                         # new!
 SOCIAL_AUTH_GITHUB_SECRET = 'acace1c1f7552ec2072c4e93ecab6b3f74974aa0'  # new!
-
-
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
